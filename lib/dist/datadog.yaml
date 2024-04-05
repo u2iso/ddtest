@@ -7,7 +7,7 @@ cloud_foundry_buildpack: true
 # The Datadog api key to associate your Agent's data with your organization.
 # Can be found here:
 # https://app.datadoghq.com/account/settings
-api_key: bfff80ec29eee19017dbf1bee056dbd9
+api_key: 680905a74d24945460f408aa1ed57489
 
 # If you need a proxy to connect to the Internet, provide it here (default:
 # disabled). You can use the 'no_proxy' list to specify hosts that should bypass the
@@ -114,7 +114,7 @@ metadata_collectors:
 # DogStatsd
 #
 # If you don't want to enable the DogStatsd server, set this option to no
-# use_dogstatsd: yes
+use_dogstatsd: yes
 #
 # Make sure your client is sending to the same UDP port
 # dogstatsd_port: 8125
